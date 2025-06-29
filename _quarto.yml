@@ -1,0 +1,102 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+  output-dir: docs
+  resources:
+    - "datasets/*/*.csv"
+    - "materials/1-workshop1/6-hypothesis-testing/hands-on.qmd"
+
+from: markdown+emoji
+
+website:
+  bread-crumbs: false
+  title: "Johnathan Shih"
+  page-navigation: true
+  navbar:
+    background: light
+    foreground: dark
+    right:
+      - text: "Research"
+        href: instance_ips.qmd
+      - text: "Publications"
+        href: installation-instructions.qmd
+      - text: "Software"
+        href: datasets.qmd
+      - text: "CV"
+        href: resources.qmd
+      - text: "Blog"
+        href: past_workshops.qmd
+      - icon: github
+        href: https://github.com/jshih08
+        aria-label: GitHub
+
+
+  # sidebar:
+  #     collapse-level: 2
+  #   # - title: Materials
+  #     style: docked
+  #     align: left
+  #     contents:
+  #         - section: "Getting Started"
+  #           contents:
+  #           - text: "</b> Get your O2 account"
+  #             contents:
+  #             href: materials/getting-started/o2/index.qmd
+  #           - text: "</b> Installing software for work on O2"
+  #             contents:
+  #             href: materials/getting-started/installation/index.qmd
+  #         - section: "R and R Studio"
+  #           contents:
+  #           - text: "</b> RStudio and recommended packages"
+  #             contents:
+  #             href: materials/getting-started/local_R/index.qmd
+  #           - text: "</b> R workshop"
+  #             contents:
+  #             href: materials/r-tutorial/index.qmd
+  #         - section: "RNAseq"
+  #           contents:
+  #           - text: "Background"
+  #             contents:
+  #             href: materials/rnaseq/background/index.qmd
+  #           - text: "Walkthrough"
+  #             contents:
+  #             href: materials/rnaseq/walkthrough/index.qmd
+  #         - section: "16S"
+  #           contents:
+  #           - text: "Background"
+  #             contents:
+  #             href: materials/16S/background/index.qmd
+  #           - text: "SMB Data Transfer and Demultiplexing"
+  #             contents:
+  #             href: materials/16S/kwon_sequencing_data_transfer/index.qmd
+  #           - text: "16S Pipeline"
+  #             contents:
+  #             href: materials/16S/16s_pipeline/index.qmd
+  #           - text: "Assigning CSTs with Valencia"
+  #             contents:
+  #             href: materials/16S/valencia/index.qmd
+  #         - section: "Metagenomics"
+  #           contents:
+  #           - text: "Background"
+  #             contents:
+  #             href: materials/metagenomics/background/index.qmd
+  #           - text: "VIRGO2 Pipeline"
+  #             contents:
+  #             href: materials/metagenomics/virgo2/index.qmd
+
+  # page-footer:
+  #   right: "This page is built with {{< fa heart >}} and [Quarto](https://quarto.org/)."
+  #   left: "&copy; 2023. Huge thanks to [Andrew P. Bray](https://github.com/andrewpbray) and [Claus O. Wilke](https://github.com/clauswilke) for open source code and sharing content."
+
+format:   
+  html:
+    theme: [assets/custom.scss]
+    toc: false
+  
+
+# Design tips:
+# 1. maggieappleton.com
+# 2. Palette: https://www.jpl.nasa.gov/images/the-grand-tour-jpl-travel-poster
+
+  

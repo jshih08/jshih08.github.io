@@ -1,0 +1,42 @@
+---
+anchor-sections: false
+section-divs: false
+css: assets/index.css
+toc: false
+---
+
+\
+\
+
+
+
+::: {.columns}
+
+::: {.column width="30%"}
+
+<!-- Profile Picture as a Circular Image -->
+<img src="assets/images/ShihJohnathan_photograph.JPG" alt="Profile Picture" style="border-radius: 50%; width: 150px; transform: scale(0.9); height: 150px; object-fit: cover; display: block; margin: 50 auto;" />
+
+
+### <span style="font-size: 0.8rem;">Upcoming PhD Student in Quantitative Biosciences, GTech</span>
+
+- 📍 GTech
+- 📧 [Email](mailto:jshih41@gatech.edu)
+- 🐱 [GitHub](https://github.com/jshih08)
+
+
+:::
+
+::: {.column width="70%"}
+
+**Hello!**
+
+I’m Johnathan Shih, an upcoming PhD student in Quantitative Biosciences at the Georgia Institute of Technology. Before this, I worked as a bioinformatics technician at the Ragon Institute, where I supported clinical trials and microbiome studies through statistical modeling and sequencing pipeline development.
+
+My research interests lie at the intersection of statistics, computational biology, and the microbiome. I’ve developed bayesian models to evaluate diagnostic subjectivity in bacterial vaginosis and contributed to multiple clinical studies involving live biotherapeutics. I enjoy designing reproducible workflows, analyzing complex datasets, and building tools that bridge data science and microbiology.
+
+I previously studied statistics and computer science at Texas A&M University, and I’m also passionate about teaching and have led workshops in high-dimensional data analysis and microbiome research.
+
+:::
+
+:::
